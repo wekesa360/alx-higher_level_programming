@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def magic_calculation(a, b):
     a = 4 ** 3
     b = 34
