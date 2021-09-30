@@ -1,24 +1,20 @@
 #!/usr/bin/python3
 """
-MOdule 1-square
-Defines class square with private attributes size
+Module 1-square
+Defines class Square with private attribute size
 """
 
 
-class square:
+class Square:
     """
-    class Square definition 
+    class Square definition
     Args:
-    size: size of a side in square
+        size : size of a side in square
     """
-
     def __init__(self, size):
-        
         """
-
-        initising square
+        Initializes square
         Attributes:
             size: size of a side of square
         """
-
         self.__size = size
